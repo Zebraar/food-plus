@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food and drinks",
+  "key": {
+    "A": "minecraft:sugar",
+    "B": "minecraft:egg",
+    "C": "minecraft:apple"
+  },
+  "pattern": [
+    "CB",
+    " A"
+  ],
+  "result": {
+    "id": "food-plus:apple_pie",
+    "count": 1
+  }
+}

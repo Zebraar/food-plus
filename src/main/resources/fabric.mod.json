@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "food-plus",
+	"version": "0.0.5",
+	"name": "Food Plus",
+	"description": "This mod adds a bit of variety to your in‑game diet! It introduces a wide range of foods inspired by different real‑world countries, all within Minecraft’s vanilla setting.",
+	"authors": [
+		"Zebrar"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/extra-food-plus",
+		"sources": "https://github.com/Zebraar/food-plus"
+	},
+	"license": "MIT",
+	"icon": "assets/food-plus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.foodplus.FoodPlus"
+		],
+		"client": [
+			"com.foodplus.FoodPlusClient"
+		]
+	},
+	"mixins": [
+		"food-plus.mixins.json",
+		{
+			"config": "food-plus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

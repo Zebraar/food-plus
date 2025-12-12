@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food and drinks",
+  "key": {
+    "A": "minecraft:carrot",
+    "B": "minecraft:bowl"
+  },
+  "pattern": [
+    "AAA",
+    "AAA",
+    " B "
+  ],
+  "result": {
+    "id": "food-plus:carrot_soup",
+    "count": 1
+  }
+}

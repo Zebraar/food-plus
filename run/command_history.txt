@@ -1,0 +1,7 @@
+/effect give Player271 minecraft:hunger
+/effect give Player271 minecraft:hunger infinite 5
+/effect give Player271 minecraft:hunger infinite 255
+/effect clear Player43 minecraft:hunger
+/time set day
+/gamerule doDaylightCycle false
+/time set day
